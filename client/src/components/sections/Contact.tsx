@@ -189,16 +189,16 @@ export function Contact() {
           {/* Map Side */}
           <div className="relative h-64 lg:h-auto min-h-[400px] bg-slate-200">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.423376295328!2d72.84279761502476!3d19.16335168703774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b64c01d4df33%3A0xc6196232e9124dd7!2sGoregaon%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1655110825316!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.8913035665437!2d72.8486408!3d19.1562347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b73111694c6f%3A0x22bde388254c42a9!2sVidyasetu%20home%20tution!5e0!3m2!1sen!2sin!4v1772209125068!5m2!1sen!2sin" 
               className="absolute inset-0 w-full h-full border-0" 
               allowFullScreen 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Goregaon Location Map"
+              title="Vidyasetu Home Tuition Location Map"
             />
             <div className="absolute bottom-6 left-6 right-6 glass p-4 rounded-xl">
               <h4 className="font-bold text-slate-800 mb-1">Our Locations</h4>
-              <p className="text-sm text-slate-600">Serving students in Goregaon & Malad, Mumbai.</p>
+              <p className="text-sm text-slate-600">Goregaon & Malad, Mumbai.</p>
             </div>
           </div>
 

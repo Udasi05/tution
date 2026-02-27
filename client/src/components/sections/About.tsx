@@ -30,10 +30,15 @@ export function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Us?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">About Bhumi Ma'am</h2>
           <p className="text-lg text-muted-foreground">
-            Led by Bhumi Bhanushali, our coaching center is dedicated to transforming students into confident learners through engaging and effective teaching methods.
+            Bhumi Bhanushali is a highly qualified educator with a passion for academic excellence. With expertise in Science and Biology, she has helped numerous students achieve their full potential through personalized coaching and innovative teaching methods.
           </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4">
+            <span className="px-4 py-2 bg-slate-100 rounded-full text-sm font-semibold">Biology Specialist</span>
+            <span className="px-4 py-2 bg-slate-100 rounded-full text-sm font-semibold">NEET Foundation Expert</span>
+            <span className="px-4 py-2 bg-slate-100 rounded-full text-sm font-semibold">5+ Years Experience</span>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

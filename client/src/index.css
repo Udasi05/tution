@@ -9,20 +9,20 @@
   --font-sans: 'DM Sans', sans-serif;
   --font-display: 'Outfit', sans-serif;
 
-  /* Color Palette - Trustworthy Blue & Warm Gold */
-  --background: 210 40% 98%;      /* Very light slate/blue tint */
-  --foreground: 222 47% 11%;      /* Deep navy/black */
+  /* Color Palette - Trustworthy Navy & Clean White */
+  --background: 0 0% 100%;           /* Pure White */
+  --foreground: 222 47% 11%;         /* Deep navy/black */
   
-  --primary: 226 71% 40%;         /* Royal Blue */
+  --primary: 222 47% 11%;            /* Navy Blue */
   --primary-foreground: 210 40% 98%;
   
-  --secondary: 210 40% 90%;       /* Light Slate */
+  --secondary: 210 40% 96%;          /* Very Light Gray/Blue */
   --secondary-foreground: 222 47% 15%;
   
-  --accent: 43 96% 56%;           /* Warm Gold / Yellow */
+  --accent: 43 96% 56%;              /* Warm Gold / Yellow (from pamphlet) */
   --accent-foreground: 222 47% 11%;
   
-  --muted: 214 32% 91%;
+  --muted: 210 40% 96%;
   --muted-foreground: 215 16% 47%;
   
   --card: 0 0% 100%;
@@ -30,7 +30,7 @@
   
   --border: 214 32% 91%;
   --input: 214 32% 91%;
-  --ring: 226 71% 40%;
+  --ring: 222 47% 11%;
   
   --radius: 1rem;
 }

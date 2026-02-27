@@ -27,7 +27,7 @@ export function Hero() {
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance leading-[1.1] mb-6">
-              Build a <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">Strong Academic</span> Foundation.
+              Build a <span className="text-primary">Strong Academic</span> Foundation.
             </h1>
             
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0 text-balance">
