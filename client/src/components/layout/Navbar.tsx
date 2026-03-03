@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, BookOpen } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImg from "@assets/logo.png";
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -28,19 +29,18 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "py-3 glass" : "py-5 bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "py-3 glass" : "py-5 bg-transparent"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-              <BookOpen className="w-6 h-6 text-primary" />
+            <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors p-1">
+              <img src={logoImg} alt="Vidyasetu Tution Logo" className="w-full h-full object-contain group-hover:scale-105 transition-transform" />
             </div>
             <span className="font-display font-bold text-xl md:text-2xl text-foreground">
-              Bhumi's<span className="text-primary">Coaching</span>
+              Vidyasetu<span className="text-primary">Tution</span>
             </span>
           </a>
 
@@ -55,7 +55,7 @@ export function Navbar() {
                 {link.name}
               </a>
             ))}
-            <Button 
+            <Button
               onClick={handleEnrollClick}
               className="rounded-full px-6 font-semibold shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 transition-all"
             >
@@ -93,7 +93,7 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <Button 
+              <Button
                 onClick={handleEnrollClick}
                 className="w-full mt-2 rounded-full font-semibold"
               >
