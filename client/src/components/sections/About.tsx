@@ -1,9 +1,6 @@
 import { motion } from "framer-motion";
 import { BookOpenCheck, MapPin, Users, Target } from "lucide-react";
-<<<<<<< HEAD
-import teacherImg from "@assets/1772558569170(1) (1).png";
-=======
->>>>>>> 2d9b74cd38be16a3d07df8233c2a4e8979d98185
+import teacherImg from "@assets/photo.png";
 
 const highlights = [
   {
@@ -30,13 +27,12 @@ const highlights = [
 
 export function About() {
   return (
-<<<<<<< HEAD
     <section id="about" className="py-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Split layout: Photo + About Text */}
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center mb-20">
-          
+
           {/* Teacher Photo */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -48,7 +44,7 @@ export function About() {
             {/* Decorative background elements */}
             <div className="absolute -top-6 -left-6 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent/15 rounded-full blur-2xl" />
-            
+
             {/* Decorative dots pattern */}
             <div className="absolute top-4 -right-4 w-24 h-24 opacity-20">
               <div className="grid grid-cols-4 gap-2">
@@ -66,7 +62,7 @@ export function About() {
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                 className="absolute -inset-3 rounded-3xl border-2 border-dashed border-primary/20"
               />
-              
+
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/15 border-4 border-white">
                 <img
                   src={teacherImg}
@@ -141,7 +137,7 @@ export function About() {
                 Bhumi Bhanushali is a highly qualified educator with an MSc in Zoology and a B.Ed degree, bringing a strong academic background to every classroom. With 5 years of teaching experience, she has helped numerous students achieve their full potential through personalized coaching and innovative teaching methods.
               </p>
             </div>
-            
+
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 rounded-full text-sm font-semibold text-primary">MSc Zoology</span>
               <span className="px-4 py-2 bg-gradient-to-r from-emerald-500/10 to-emerald-500/5 border border-emerald-500/20 rounded-full text-sm font-semibold text-emerald-600">B.Ed Qualified</span>
@@ -151,23 +147,6 @@ export function About() {
         </div>
 
         {/* Highlights Grid */}
-=======
-    <section id="about" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">About Bhumi Ma'am</h2>
-          <p className="text-lg text-muted-foreground">
-            Bhumi Bhanushali is a highly qualified educator with an MSc in Zoology and a B.Ed degree, bringing a strong academic background to every classroom. With 5 years of teaching experience, she has helped numerous students achieve their full potential through personalized coaching and innovative teaching methods.
-          </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-4">
-            <span className="px-4 py-2 bg-slate-100 rounded-full text-sm font-semibold">MSc Zoology</span>
-            <span className="px-4 py-2 bg-slate-100 rounded-full text-sm font-semibold">B.Ed Qualified</span>
-            <span className="px-4 py-2 bg-slate-100 rounded-full text-sm font-semibold">5 Years Experience</span>
-          </div>
-        </div>
-
->>>>>>> 2d9b74cd38be16a3d07df8233c2a4e8979d98185
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {highlights.map((item, idx) => (
             <motion.div
