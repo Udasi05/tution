@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { BookOpenCheck, MapPin, Users, Target } from "lucide-react";
+import { BookOpenCheck, MapPin, Users, Target, Youtube, Instagram } from "lucide-react";
 import teacherImg from "@assets/photo.png";
 
 const highlights = [
@@ -142,6 +142,28 @@ export function About() {
               <span className="px-4 py-2 bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 rounded-full text-sm font-semibold text-primary">MSc Zoology</span>
               <span className="px-4 py-2 bg-gradient-to-r from-emerald-500/10 to-emerald-500/5 border border-emerald-500/20 rounded-full text-sm font-semibold text-emerald-600">B.Ed Qualified</span>
               <span className="px-4 py-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 rounded-full text-sm font-semibold text-amber-600">5 Years Experience</span>
+            </div>
+
+            {/* Social Links */}
+            <div className="flex items-center gap-4 pt-2">
+              <a
+                href="https://youtube.com/@curiosciii"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-2 px-5 py-2.5 rounded-full bg-red-500/10 border border-red-500/20 hover:bg-red-500 hover:border-red-500 transition-all duration-300"
+              >
+                <Youtube className="w-5 h-5 text-red-500 group-hover:text-white transition-colors" />
+                <span className="text-sm font-semibold text-red-500 group-hover:text-white transition-colors">YouTube</span>
+              </a>
+              <a
+                href="https://www.instagram.com/bio.withbhumi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-2 px-5 py-2.5 rounded-full bg-pink-500/10 border border-pink-500/20 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:border-pink-500 transition-all duration-300"
+              >
+                <Instagram className="w-5 h-5 text-pink-500 group-hover:text-white transition-colors" />
+                <span className="text-sm font-semibold text-pink-500 group-hover:text-white transition-colors">Instagram</span>
+              </a>
             </div>
           </motion.div>
         </div>

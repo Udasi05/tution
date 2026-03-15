@@ -1,4 +1,4 @@
-import { MapPin, Phone } from "lucide-react";
+import { MapPin, Phone, Youtube, Instagram } from "lucide-react";
 import logoImg from "@assets/logo.png";
 
 export function Footer() {
@@ -42,6 +42,24 @@ export function Footer() {
                 <a href="tel:+919022204761" className="hover:text-white transition-colors">+91 90222 04761</a>
               </li>
             </ul>
+            <div className="flex items-center gap-3 mt-4">
+              <a
+                href="https://youtube.com/@curiosciii"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-500 hover:border-red-500 transition-all duration-300 group"
+              >
+                <Youtube className="w-5 h-5 text-slate-400 group-hover:text-white transition-colors" />
+              </a>
+              <a
+                href="https://www.instagram.com/bio.withbhumi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:border-pink-500 transition-all duration-300 group"
+              >
+                <Instagram className="w-5 h-5 text-slate-400 group-hover:text-white transition-colors" />
+              </a>
+            </div>
           </div>
 
         </div>

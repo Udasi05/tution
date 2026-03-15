@@ -86,7 +86,14 @@ export function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setMobileMenuOpen(false);
+                    setTimeout(() => {
+                      const target = document.querySelector(link.href);
+                      target?.scrollIntoView({ behavior: 'smooth' });
+                    }, 300);
+                  }}
                   className="block px-3 py-2 text-base font-medium text-foreground hover:bg-primary/5 rounded-lg"
                 >
                   {link.name}
