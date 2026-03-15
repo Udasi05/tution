@@ -7,6 +7,10 @@ import logoImg from "@assets/logo.png";
 const navLinks = [
   { name: "About", href: "#about" },
   { name: "Programs", href: "#programs" },
+<<<<<<< HEAD
+=======
+  { name: "Pricing", href: "#pricing" },
+>>>>>>> 2d9b74cd38be16a3d07df8233c2a4e8979d98185
   { name: "Contact", href: "#contact" },
 ];
 
